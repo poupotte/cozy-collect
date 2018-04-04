@@ -13096,8 +13096,6 @@ module.exports = {
 "use strict";
 
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
 __webpack_require__(134);
@@ -13207,6 +13205,8 @@ var indexTriggersByAccounts = function indexTriggersByAccounts(triggers) {
 
 var deleteAccounts = function () {
   var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(accounts) {
+    var _iteratorNormalCompletion, _didIteratorError, _iteratorError, _iterator, _step, acc;
+
     return regeneratorRuntime.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
@@ -13214,17 +13214,67 @@ var deleteAccounts = function () {
             log.info('Deleting accounts ' + accounts.map(function (doc) {
               return doc._id;
             }).join(', '));
-            _context3.next = 3;
-            return cozyFetch('POST', 'data/io.cozy.accounts/_bulk_docs', { docs: accounts.map(function (doc) {
-                return _extends({}, doc, { _deleted: true });
-              }) }, true);
+            _iteratorNormalCompletion = true;
+            _didIteratorError = false;
+            _iteratorError = undefined;
+            _context3.prev = 4;
+            _iterator = accounts[Symbol.iterator]();
 
-          case 3:
+          case 6:
+            if (_iteratorNormalCompletion = (_step = _iterator.next()).done) {
+              _context3.next = 13;
+              break;
+            }
+
+            acc = _step.value;
+            _context3.next = 10;
+            return cozyFetch('DELETE', 'data/io.cozy.accounts/' + acc._id + '?rev=' + acc._rev, null, true);
+
+          case 10:
+            _iteratorNormalCompletion = true;
+            _context3.next = 6;
+            break;
+
+          case 13:
+            _context3.next = 19;
+            break;
+
+          case 15:
+            _context3.prev = 15;
+            _context3.t0 = _context3['catch'](4);
+            _didIteratorError = true;
+            _iteratorError = _context3.t0;
+
+          case 19:
+            _context3.prev = 19;
+            _context3.prev = 20;
+
+            if (!_iteratorNormalCompletion && _iterator.return) {
+              _iterator.return();
+            }
+
+          case 22:
+            _context3.prev = 22;
+
+            if (!_didIteratorError) {
+              _context3.next = 25;
+              break;
+            }
+
+            throw _iteratorError;
+
+          case 25:
+            return _context3.finish(22);
+
+          case 26:
+            return _context3.finish(19);
+
+          case 27:
           case 'end':
             return _context3.stop();
         }
       }
-    }, _callee3, undefined);
+    }, _callee3, undefined, [[4, 15, 19, 27], [20,, 22, 26]]);
   }));
 
   return function deleteAccounts(_x) {

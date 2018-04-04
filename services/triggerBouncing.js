@@ -13243,10 +13243,12 @@ var realtime = _interopRequireWildcard(_realtime);
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 var ERROR_TYPES = exports.ERROR_TYPES = {
+  CHALLENGE_ASKED: 'CHALLENGE_ASKED',
   LOGIN_FAILED: 'LOGIN_FAILED',
   MAINTENANCE: 'MAINTENANCE',
   NOT_EXISTING_DIRECTORY: 'NOT_EXISTING_DIRECTORY',
-  USER_ACTION_NEEDED: 'USER_ACTION_NEEDED'
+  USER_ACTION_NEEDED: 'USER_ACTION_NEEDED',
+  VENDOR_DOWN: 'VENDOR_DOWN'
 }; /* konnector lib ready to be added to cozy-client-js */
 var KONNECTORS_DOCTYPE = exports.KONNECTORS_DOCTYPE = 'io.cozy.konnectors';
 
