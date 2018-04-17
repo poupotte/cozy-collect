@@ -948,10 +948,16 @@ body {
 .c-btn--regular--11Z3s[aria-disabled=true] input {
   cursor: not-allowed;
 }
+.c-btn--1NF6Q[disabled]:hover,
+.c-btn--regular--11Z3s[disabled]:hover,
+.c-btn--1NF6Q[aria-disabled=true]:hover,
+.c-btn--regular--11Z3s[aria-disabled=true]:hover {
+  background-color: #297ef2;
+}
 .c-btn--1NF6Q:active,
 .c-btn--regular--11Z3s:active,
-.c-btn--1NF6Q:not([disabled]):not([aria-disabled=true]):hover,
-.c-btn--regular--11Z3s:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--1NF6Q:hover,
+.c-btn--regular--11Z3s:hover,
 .c-btn--1NF6Q:focus,
 .c-btn--regular--11Z3s:focus {
   background-color: #0b61d6;
@@ -969,11 +975,15 @@ body {
 .c-btn--secondary--2-gD0 svg {
   fill: currentColor;
 }
+.c-btn--secondary--2-gD0[disabled]:hover,
+.c-btn--secondary--2-gD0[aria-disabled=true]:hover {
+  background-color: #fff;
+}
 .c-btn--secondary--2-gD0:visited {
   color: #000;
 }
 .c-btn--secondary--2-gD0:active,
-.c-btn--secondary--2-gD0:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--secondary--2-gD0:hover,
 .c-btn--secondary--2-gD0:focus {
   background-color: #d6d8da;
 }
@@ -981,8 +991,12 @@ body {
   border-color: #f52d2d;
   background-color: #f52d2d;
 }
+.c-btn--danger--3cqfP[disabled]:hover,
+.c-btn--danger--3cqfP[aria-disabled=true]:hover {
+  background-color: #f52d2d;
+}
 .c-btn--danger--3cqfP:active,
-.c-btn--danger--3cqfP:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--danger--3cqfP:hover,
 .c-btn--danger--3cqfP:focus {
   border-color: #dd0505;
   background-color: #dd0505;
@@ -995,11 +1009,15 @@ body {
 .c-btn--danger-outline--13GkY svg {
   fill: currentColor;
 }
+.c-btn--danger-outline--13GkY[disabled]:hover,
+.c-btn--danger-outline--13GkY[aria-disabled=true]:hover {
+  background-color: #fff;
+}
 .c-btn--danger-outline--13GkY:visited {
   color: #f52d2d;
 }
 .c-btn--danger-outline--13GkY:active,
-.c-btn--danger-outline--13GkY:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--danger-outline--13GkY:hover,
 .c-btn--danger-outline--13GkY:focus {
   background-color: #fdcbcb;
 }
@@ -1007,8 +1025,12 @@ body {
   border-color: #35ce68;
   background-color: #35ce68;
 }
+.c-btn--highlight--30u04[disabled]:hover,
+.c-btn--highlight--30u04[aria-disabled=true]:hover {
+  background-color: #35ce68;
+}
 .c-btn--highlight--30u04:active,
-.c-btn--highlight--30u04:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--highlight--30u04:hover,
 .c-btn--highlight--30u04:focus {
   border-color: #08b442;
   background-color: #08b442;
@@ -1019,12 +1041,20 @@ body {
   border-color: #fff;
   background-color: transparent;
 }
+.c-btn--alpha--3FxAB[disabled]:hover,
+.c-btn--action--1egnc[disabled]:hover,
+.c-btn--close--oKQhH[disabled]:hover,
+.c-btn--alpha--3FxAB[aria-disabled=true]:hover,
+.c-btn--action--1egnc[aria-disabled=true]:hover,
+.c-btn--close--oKQhH[aria-disabled=true]:hover {
+  background-color: transparent;
+}
 .c-btn--alpha--3FxAB:active,
 .c-btn--action--1egnc:active,
 .c-btn--close--oKQhH:active,
-.c-btn--alpha--3FxAB:not([disabled]):not([aria-disabled=true]):hover,
-.c-btn--action--1egnc:not([disabled]):not([aria-disabled=true]):hover,
-.c-btn--close--oKQhH:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--alpha--3FxAB:hover,
+.c-btn--action--1egnc:hover,
+.c-btn--close--oKQhH:hover,
 .c-btn--alpha--3FxAB:focus,
 .c-btn--action--1egnc:focus,
 .c-btn--close--oKQhH:focus {
@@ -1039,7 +1069,7 @@ body {
   margin: 0;
 }
 .c-btn--action--1egnc:active,
-.c-btn--action--1egnc:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--action--1egnc:hover,
 .c-btn--action--1egnc:focus {
   background-color: transparent;
 }
@@ -1051,7 +1081,7 @@ body {
   margin: 0;
 }
 .c-btn--close--oKQhH:active,
-.c-btn--close--oKQhH:not([disabled]):not([aria-disabled=true]):hover,
+.c-btn--close--oKQhH:hover,
 .c-btn--close--oKQhH:focus {
   background-color: transparent;
 }
@@ -1528,9 +1558,11 @@ body {
 }
 .c-modal-footer--3hIzL {
   padding: 1rem 1.5rem 1.5rem;
+}
+.c-modal-footer--button--2g_JX {
   text-align: right;
 }
-.c-modal-footer--3hIzL button:last-child {
+.c-modal-footer--button--2g_JX button:last-child {
   margin-right: 0;
 }
 .c-modal-section--2qJbI {
@@ -1667,6 +1699,57 @@ body {
 }
 .col-konnector-header-icon--3bHAH {
   height: 2em;
+}
+.intentHeader--1D-_G {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #f5f6f7;
+  margin: 0;
+}
+.intentHeader-title--26M1u {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.25rem;
+  color: #32363f;
+}
+.intentHeader-title--26M1u span {
+  font-weight: normal;
+}
+.intentHeader-icon--34ITn {
+  height: 1.125rem;
+  margin-right: 0.5rem;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.intentIframe--2-m4T {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.intentIframe__error--3gU-G {
+  color: #f00;
+  font-size: 1.5em;
 }
 @-webkit-keyframes spin--1NxjT {
   from {
@@ -1904,6 +1987,10 @@ ul.connector-list {
 .errors {
   color: #f52d2d;
 }
+.coz-service {
+  width: 100%;
+  height: 100%;
+}
 .coz-service-loading,
 .coz-service-error {
   display: -webkit-box;
@@ -2079,7 +2166,7 @@ ul.connector-list {
   .c-modal--large-spacing--2uWw9 .c-modal-content--27Ex2:last-child {
     padding-bottom: 2rem;
   }
-  .c-modal-footer--3hIzL {
+  .c-modal-footer--button--2g_JX {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2088,11 +2175,11 @@ ul.connector-list {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
-  .c-modal-footer--3hIzL button {
+  .c-modal-footer--button--2g_JX button {
     width: 100%;
     margin: 0;
   }
-  .c-modal-footer--3hIzL button:not(:first-child) {
+  .c-modal-footer--button--2g_JX button:not(:first-child) {
     margin-bottom: 0.25rem;
   }
   .c-modal--large-spacing--2uWw9 .c-modal-close--ZBJ0A {
