@@ -2027,11 +2027,11 @@ p {
   text-transform: none;
 }
 body,
-button,
-input,
-optgroup,
-select,
-textarea {
+body button,
+body input,
+body optgroup,
+body select,
+body textarea {
   font-family: Lato, sans-serif;
 }
 @-webkit-keyframes spin--2kNWA {
@@ -2572,6 +2572,10 @@ body {
   background-color: #fff;
   color: #000;
 }
+[aria-hidden=true] {
+  display: none;
+  visibility: hidden;
+}
 .col-button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2849,10 +2853,6 @@ body {
   margin-top: 0.3125rem;
   color: #95999d;
   line-height: 1.5;
-}
-[aria-hidden=true] {
-  display: none;
-  visibility: hidden;
 }
 #svg-sprite-content {
   position: absolute;
@@ -3258,10 +3258,10 @@ ul.connector-list {
     justify-content: center;
     padding: 1.5rem;
   }
-  .c-modal-wrapper--fullscreen--2nJke {
+  .c-modal-wrapper--UeRRs.c-modal-wrapper--fullscreen--2nJke {
     padding: 0;
   }
-  .c-modal--fullscreen--37HO- {
+  .c-modal--97Ctb.c-modal--fullscreen--37HO- {
     height: 100%;
     width: 100%;
     border-radius: 0;

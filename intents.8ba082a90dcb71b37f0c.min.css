@@ -156,11 +156,11 @@ p {
   padding-left: 0;
 }
 body,
-button,
-input,
-optgroup,
-select,
-textarea {
+body button,
+body input,
+body optgroup,
+body select,
+body textarea {
   font-family: Lato, sans-serif;
 }
 @-webkit-keyframes spin--2166W {
@@ -1734,7 +1734,8 @@ iframe {
   height: 100%;
   border: 0;
 }
-.intentIframe--2-m4T {
+.intentContainer--2ZsXQ,
+.intentPlaceHolder--1dSAS {
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -1747,7 +1748,12 @@ iframe {
       -ms-flex-align: center;
           align-items: center;
 }
-.intentIframe__error--3gU-G {
+/* Don't mess with the spinner centering until the iframe is fully loaded. */
+.intentContainer--2ZsXQ[aria-busy] iframe {
+  height: 0;
+  width: 0;
+}
+.intentContainer__error--ZsaBD {
   color: #f00;
   font-size: 1.5em;
 }
@@ -2149,10 +2155,10 @@ ul.connector-list {
     justify-content: center;
     padding: 1.5rem;
   }
-  .c-modal-wrapper--fullscreen--2nJke {
+  .c-modal-wrapper--UeRRs.c-modal-wrapper--fullscreen--2nJke {
     padding: 0;
   }
-  .c-modal--fullscreen--37HO- {
+  .c-modal--97Ctb.c-modal--fullscreen--37HO- {
     height: 100%;
     width: 100%;
     border-radius: 0;
