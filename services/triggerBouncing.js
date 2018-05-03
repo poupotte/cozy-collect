@@ -13248,7 +13248,8 @@ var ERROR_TYPES = exports.ERROR_TYPES = {
   MAINTENANCE: 'MAINTENANCE',
   NOT_EXISTING_DIRECTORY: 'NOT_EXISTING_DIRECTORY',
   USER_ACTION_NEEDED: 'USER_ACTION_NEEDED',
-  VENDOR_DOWN: 'VENDOR_DOWN'
+  VENDOR_DOWN: 'VENDOR_DOWN',
+  DISK_QUOTA_EXCEEDED: 'DISK_QUOTA_EXCEEDED'
 }; /* konnector lib ready to be added to cozy-client-js */
 var KONNECTORS_DOCTYPE = exports.KONNECTORS_DOCTYPE = 'io.cozy.konnectors';
 
@@ -13323,7 +13324,7 @@ var getMostAccurateErrorKey = exports.getMostAccurateErrorKey = function getMost
     fullKey = getKey(tested.join('.'));
   }
 
-  return fullKey || errorSegments[0];
+  return tested.length ? fullKey : getKey('UNKNOWN_ERROR');
 };
 
 /***/ }),

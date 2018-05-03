@@ -1,14 +1,17 @@
 {
   "name": "Collect",
+  "name_prefix": "Cozy",
   "slug": "collect",
   "icon": "cozy_collect.svg",
   "categories": [
-    "cozy"
+    "cozy",
+    "konnectors"
   ],
+  "type": "webapp",
   "source": "git://github.com/cozy/cozy-collect.git",
   "editor": "Cozy",
   "developer": {
-    "name": "Cozy",
+    "name": "Cozy Cloud",
     "url": "https://cozy.io"
   },
   "version": "1.0.2",
@@ -16,8 +19,7 @@
   "screenshots": [
     "screenshots/screenshot1.png",
     "screenshots/screenshot2.png",
-    "screenshots/screenshot3.png",
-    "screenshots/screenshot4.png"
+    "screenshots/screenshot3.png"
   ],
   "permissions": {
     "apps": {
@@ -141,7 +143,7 @@
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "es": {
       "name": "Recopilar",
