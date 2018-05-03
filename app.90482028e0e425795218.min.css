@@ -1966,9 +1966,9 @@ ul.connector-list {
   position: relative;
   display: block;
   max-width: 10em;
-  max-height: 3em;
+  max-height: 4.8em;
   margin: 0 auto;
-  top: 50%;
+  top: 55%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
