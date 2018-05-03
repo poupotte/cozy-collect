@@ -1224,6 +1224,27 @@ body {
 .coz-field--3Wf09 select.error--3UJ_n {
   border: 1px solid #f52d2d;
 }
+.coz-field--3Wf09 input[type=text][disabled],
+.coz-field--3Wf09 input[type=email][disabled],
+.coz-field--3Wf09 input[type=password][disabled],
+.coz-field--3Wf09 input[type=date][disabled],
+.coz-field--3Wf09 select[disabled] {
+  cursor: not-allowed;
+  background-color: #d6d8da;
+  opacity: 0.5;
+}
+.coz-field--3Wf09 input[type=text][disabled]:focus,
+.coz-field--3Wf09 input[type=email][disabled]:focus,
+.coz-field--3Wf09 input[type=password][disabled]:focus,
+.coz-field--3Wf09 input[type=date][disabled]:focus,
+.coz-field--3Wf09 select[disabled]:focus,
+.coz-field--3Wf09 input[type=text][disabled]:hover,
+.coz-field--3Wf09 input[type=email][disabled]:hover,
+.coz-field--3Wf09 input[type=password][disabled]:hover,
+.coz-field--3Wf09 input[type=date][disabled]:hover,
+.coz-field--3Wf09 select[disabled]:hover {
+  border-color: #d6d8da;
+}
 .coz-field--3Wf09 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -1234,9 +1255,6 @@ body {
 }
 .coz-field--3Wf09 select::-ms-expand {
   display: none;
-}
-.coz-field--3Wf09 select[disabled] {
-  opacity: 0.5;
 }
 .coz-field--3Wf09.coz-field--error--3Lp5p input[type=text],
 .coz-field--3Wf09.coz-field--error--3Lp5p input[type=email],
