@@ -12,6 +12,21 @@ p {
   font-size: 1em;
   line-height: 1.5em;
 }
+.col-account-connection--2pE4c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .col-account-connection-header--bELaB {
   margin: 0 1em;
 }
@@ -24,6 +39,7 @@ p {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  max-width: 36rem;
 }
 .col-account-connection-fetching--32jwP {
   padding: 0 0 2em;
@@ -1765,9 +1781,6 @@ body {
   width: 1rem;
   height: 1rem;
 }
-.col-konnector-header-icon--3bHAH {
-  height: 2em;
-}
 .intentHeader--1D-_G {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2034,8 +2047,23 @@ ul.connector-list {
   color: #f52d2d;
 }
 .coz-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 100%;
+}
+.col-create-account-intent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .coz-service-loading,
 .coz-service-error {
@@ -2145,13 +2173,11 @@ ul.connector-list {
           flex: 1;
   background-position: center right;
 }
-.coz-service-content-header {
-  width: 100%;
-}
 .coz-service-content {
+  width: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2159,17 +2185,16 @@ ul.connector-list {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  padding: 1em;
+  padding: 1em 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 70%;
-  max-width: 68rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 3em auto;
+  margin: auto;
+  overflow-y: auto;
 }
 @media (max-width: 58.125rem) {
   .col-account-connection-header--bELaB {

@@ -12,6 +12,21 @@ p {
   font-size: 1em;
   line-height: 1.5em;
 }
+.col-account-connection--2pE4c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .col-account-connection-header--bELaB {
   margin: 0 1em;
 }
@@ -24,6 +39,7 @@ p {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  max-width: 36rem;
 }
 .col-account-connection-fetching--32jwP {
   padding: 0 0 2em;
@@ -1361,9 +1377,6 @@ p {
   margin: 0 0 0 0.5em;
   width: 1rem;
   height: 1rem;
-}
-.col-konnector-header-icon--3bHAH {
-  height: 2em;
 }
 @-webkit-keyframes spin--2kNWA {
   from {
@@ -3136,6 +3149,9 @@ body {
 .col-account-connection-back--3mCUc svg {
   height: 1.5em;
   width: 1.5em;
+}
+.col-konnector-header-icon--3bHAH {
+  height: 2em;
 }
 @-webkit-keyframes spin--pPjJW {
   from {
