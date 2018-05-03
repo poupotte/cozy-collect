@@ -2287,31 +2287,18 @@ ul.connector-list {
   }
 }
 @media (min-width: 1em) {
+  .use-case-dialog .item-wrapper {
+    -ms-flex-preferred-size: calc(100% - 0.8em * 2);
+    flex-basis: calc(100% - 0.8em * 2);
+  }
+}
+@media (min-width: 38em) {
   .item-wrapper {
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
     flex-grow: 0;
     -ms-flex-preferred-size: calc(50% - 0.8em * 2);
     flex-basis: calc(50% - 0.8em * 2);
-  }
-}
-@media (max-width: 43em) {
-  .item-wrapper {
-    padding: 0.5em 0.5em 2.5em;
-  }
-  .item-wrapper .item-header {
-    height: 4em;
-    background: #fff;
-  }
-  .item-wrapper .item-header .item-icon {
-    max-width: 8em;
-    max-height: 2em;
-  }
-  .item-wrapper .item-title {
-    padding: 0.25em 0.5em;
-    margin: 0.5em;
-    font-size: 1rem;
-    font-weight: normal;
   }
 }
 @media (min-width: 43em) {
