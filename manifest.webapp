@@ -131,13 +131,13 @@
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "de_DE": {
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "en": {
       "name": "Collect",
@@ -149,43 +149,43 @@
       "name": "Recopilar",
       "short_description": "Aplicación de configuración para konnectors. Toma los datos de sus servicios y los lleva a su Cozy.",
       "long_description": "__Collect__ le permitirá capturar toda la información que usted logra utilizando muchos servicios en sitios web o en aplicaciones.\nDisfrute de esta nueva forma de controlar sus datos diarios: tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "fr": {
       "name": "Collect",
       "short_description": "Application de configuration de connecteurs Cozy. Récupérer les données de vos différents services dans votre Cozy.",
       "long_description": "__Collect__ vous permettra de récupérer toutes les informations que vous avez en utilisant de nombreux services sur internet.\nProfitez de cette nouvelle façon de récupérer le contrôle de vos données personnelles :tada:",
-      "changes": "### Nouvelles fonctionnalités :rocket:\n\nDes connecteurs pour vos comptes bancaires ! :bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "ja": {
       "name": "Collect",
       "short_description": "コネクターの設定アプリケーション。 お使いの Cozy にサービスデータを持ってきましょう。",
       "long_description": "__Collect__ を使うと、プロバイダーのウェブサイトやアプリケーション上の数多くのサービスで使っているすべての情報を取得できます。\n日々のデータを管理するこの新しい方法をお楽しみください :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "nl": {
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "pl": {
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "sq": {
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     },
     "zh_CN": {
       "name": "Collect",
       "short_description": "Configuration application for konnectors. Grab your services data to your Cozy.",
       "long_description": "__Collect__ will allow you to grab all your informations that you have using tons on services on providers websites or applications.\nEnjoy this new way to get control on your daily data :tada:",
-      "changes": "### New features :rocket:\n\nConnectors for you bank accounts!!:bank:"
+      "changes": "Two new connectors added:\n- Blablacar\n- Vinci Autoroutes"
     }
   },
   "langs": [
