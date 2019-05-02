@@ -35,7 +35,8 @@
       "description": "Required by the cozy-bar display Claudy and to know which applications are coming soon",
       "type": "io.cozy.settings",
       "verbs": [
-        "GET"
+        "GET",
+        "ALL"
       ]
     },
     "konnectors": {
